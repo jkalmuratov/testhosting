@@ -1,0 +1,286 @@
+.body{
+	margin: 0;
+	font: 16px/1.6em Arial, Helvetica, sans-serif;
+}
+.container{
+	width: 980px;
+	margin: 0 auto;
+	font-family: sans-serif;
+}
+h1{
+	margin: 0 0 20px;
+	font-size: 30px;
+	font-weight: normal;
+	font-weight: normal;
+}
+h2{
+	font-size: 18px;
+}
+h3{
+	margin-bottom: 10px;
+	font-weight: normal;
+}
+p{
+	margin: 0 0 20px;
+	font-size: 12px;
+	line-height: 1.5;
+}
+
+p.title{
+	font-size: 14px;
+	margin-bottom: 6px;
+}
+a{
+	color: #fe3c5c;
+	text-decoration: underline;
+}
+.header{
+ text-align: center;
+ margin-top: 25px;
+ margin-bottom: 25px;
+}
+.header-nav{
+	padding: 1px 0;
+	margin: 0 0 30px;
+	background: #f4f4f4;
+}
+
+.header-nav ul{
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+	border-top: 1px solid #fff;
+	border-bottom: 1px solid #fff;
+}
+
+.header-nav li{
+	height: 52px;
+	margin: 0 30px;
+	font-size: 14px;
+	line-height: 52px;
+	display: inline-block;
+}
+
+.header-nav a{
+	color: #333;
+	padding: 5px 10px;
+	text-decoration: none;
+}
+.header-nav{
+	padding: 1px 0;
+	margin: 0 0 30px;
+	text-align: center;
+	background: #f4f4f4;
+}
+
+.nav-menu li{
+	list-style-type: none;
+	display: inline-block;
+	height: 48px;
+	line-height: 48px;
+	margin: 0 30px;
+	font-family: sans-serif;
+}
+.nav-menu ul{
+	margin: 0;
+	padding: 0;
+	border-top: 1px solid #fff;
+	border-bottom: 1px solid #fff;
+	font-family: sans-serif;
+	font-size: 14px;
+}
+.nav-menu a{
+	text-decoration: none;
+	color: #333;
+	padding: 5px 10px;
+}
+.text-center{
+	text-align: center;
+}
+.nav-menu a:hover,
+.nav-menu li.active a{
+	color: #fff;
+	background-color: #fe3c5c;
+}
+.main-objects{
+	padding-top: 20px;
+	font-family: sans-serif;
+}
+.main-objects h3{
+	font-size: 18px;
+	margin: 0 0 10px;
+	padding-bottom: 9px;
+	border-bottom: 1px solid #cccccc;
+	font-weight: normal;
+}
+.main-objects a{
+	text-decoration: none;
+	color: #a3a3a3;
+}
+.main-objects a:hover{
+	color: #fe3c5c;
+    text-decoration: underline;
+}
+.main-objects li{
+	list-style-type: none;
+	padding-bottom: 5px;
+	line-height: 1.5;
+}
+.main-objects ul{
+	font-size: 11px;
+	margin: 0;
+	padding: 0;
+}
+.color span{
+	background-color: #fe3c5c;
+	color: #fff;
+	padding: 3px 5px;
+}
+.primary-objects{
+	width: 230px;
+	float: left;
+}
+.secondary-objects{
+	width: 730px;
+	float: right;
+}
+.secondary-objects ul{
+	float: left;
+	width: 33.33333%
+}
+.page{
+	font-size: 18px;
+	text-align: center;
+	list-style-type: none;
+}
+.page ul{
+	margin-top: 50px;
+	margin-bottom: 0;
+}
+.page li{
+	display: inline-block;
+}
+
+.page a{
+	color: #fe3c5c;
+	padding: 2px 8px;
+}
+
+.page a:hover,
+.page li.active a{
+	color: #fff;
+	background: #fe3c5c;
+	text-decoration: none;
+}
+
+.bl{
+	float: left;
+	width: 240px;
+	text-align: right;
+	margin-bottom: 50px;
+	overflow: hidden;
+}
+.blocks li{
+	list-style-type: none;
+}
+.bl{
+	width: 230px;
+}
+
+h2{
+	margin: 10px 0 10px;
+	font-size: 18px;
+	font-weight: normal;
+}
+
+.blocks a:hover {
+	text-decoration: underline;
+}
+.bl:nth-child(3n+2) {
+    margin-left: 145px;
+    margin-right: 145px;
+}
+.title span{
+	font-size: 18px;
+	color: #a3a3a3;
+}
+image{
+	float: left;
+}
+.main{
+	display: flex;
+	margin: 0;
+	margin-bottom: 50px;
+}
+.info{
+	width: 500px;
+}
+.frm{
+	width: 437px;
+	padding-left: 50px;
+	font-size: 12px;
+	float: right;
+}
+.row{
+	padding-bottom: 15px;
+	text-align: right;
+	position: relative;
+	right: 178px;
+}
+.row input{
+	text-align: left;
+	margin-left: 5px;
+	width: 200px; 
+	height: 18px;
+}
+.bgrow{
+	padding-bottom: 15px;
+	text-align: right;
+}
+.bgrow label{
+	position: relative;
+	bottom: 40px;
+}
+.bgrow input{
+	width: 378px;
+	height: 100px;
+}
+button{
+	width: 162px;
+	margin-top: 20px;
+	padding: 5px 0;
+	color: #fff;
+	background: #fe3c5c;
+	border: none;
+}
+.footer{
+	float: left;
+	font-family: sans-serif;
+	color: #787878;
+	width: 100%;
+	margin-top: 50px;
+}
+.footer ul{
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+.copyright li{
+	float: left;
+	font-size: 11px;
+	width: 176px;
+	text-align: left;
+	padding-bottom: 22px;
+	border-bottom: 10px solid #999999;
+}
+.number li{
+	float: right;
+	font-size: 12px;
+	text-align: right;
+}
+
+
+
+
+
+
